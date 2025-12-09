@@ -1,0 +1,53 @@
+# -------------------------
+# Python / Virtual Environment
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Data files
+# (You SHOULD ignore raw data because it's large and from Kaggle)
+# -------------------------
+data/raw/
+data/interim/
+data/processed/
+
+# If you want to include small CSVs manually, comment the above lines out.
+
+# -------------------------
+# Model Checkpoints / Weights
+# -------------------------
+models/
+*.h5
+*.ckpt
+*.pb
+
+# -------------------------
+# Logs / Outputs
+# -------------------------
+logs/
+tensorboard/
+*.log
+
+# -------------------------
+# OS / Editor Specific
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Python Packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
